@@ -1,6 +1,5 @@
 let socket;
-socket = io.connect('http://localhost:3000')
-//GGGGGGGGGGGGGG
+socket = io.connect('https://bestcodenames.herokuapp.com/')
 
 const words = [
 	{"name":"Hi", "status":"blue"},
